@@ -1,0 +1,30 @@
+
+
+
+
+
+spring:
+  profiles:
+    active: prod
+  main:
+    banner-mode: "off"
+---
+spring:
+  profiles: test
+server:
+  url:        C:\Users\ravinder_k\Desktop\test
+
+---
+
+spring:
+  profiles: prod
+server:
+  url:        C:\Users\ravinder_k\Desktop\prod
+
+---
+spring:
+    http:
+        multipart:
+            max-file-size: 10MB
+            max-request-size: 100MB
+ 
