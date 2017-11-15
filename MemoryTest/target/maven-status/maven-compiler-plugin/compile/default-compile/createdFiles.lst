@@ -1,0 +1,14 @@
+com\memorytest\test\BookFeignClientBuilder.class
+com\memorytest\properties\ServerProperties.class
+com\memorytest\properties\Properties.class
+com\memorytest\test\PersonService.class
+com\memorytest\test\AopConfiguration.class
+com\memorytest\service\FileUploadService.class
+com\memorytest\MemoryTestApplication.class
+com\memorytest\test\BookClient.class
+com\memorytest\test\TestController.class
+com\memorytest\test\BookModel.class
+com\memorytest\test\BookService.class
+com\memorytest\serviceImpl\FileUploadServiceImpl.class
+com\memorytest\test\Person.class
+com\memorytest\test\MyPerformanceMonitorInterceptor.class

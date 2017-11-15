@@ -1,0 +1,24 @@
+
+
+
+
+
+spring:
+  profiles:
+    active: 
+  main:
+    banner-mode: "off"
+---
+spring:
+  profiles: test
+server:
+  url:   \\spnas1.gtfc.com\spdept3\DEPT\GTPortalReports\GTServUploads-Test
+  email: ravinder.test@gmail.com
+
+---
+
+spring:
+  profiles: prod
+server:
+  url: \\spnas1.gtfc.com\spdept3\DEPT\GTPortalReports\GTServUploads
+  email: ravinder.prod@gmail.com
